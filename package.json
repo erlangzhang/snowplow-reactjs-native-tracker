@@ -1,5 +1,5 @@
 {
-  "name": "snowplow-reactjs-native-tracker",
+  "name": "@ringierag/snowplow-reactjs-native-tracker",
   "version": "0.0.1",
   "description": "Snowplow tracker for React Native",
   "main": "dist/index.js",

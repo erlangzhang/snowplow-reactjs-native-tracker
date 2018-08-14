@@ -6,7 +6,7 @@ implementation for React Native.
 ## Install
 
 ```
-npm install snowplow-reactjs-native-tracker --save
+npm install @ringierag/snowplow-reactjs-native-tracker --save
 ```
 
 ## Usage
