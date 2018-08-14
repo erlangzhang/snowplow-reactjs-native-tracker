@@ -1,0 +1,54 @@
+{
+  "name": "snowplow-reactjs-native-tracker",
+  "version": "0.0.1",
+  "description": "Snowplow tracker for React Native",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ringier-data/snowplow-reactjs-native-tracker.git"
+  },
+  "keywords": [
+    "snowplow",
+    "tracker",
+    "react"
+  ],
+  "author": "Ringier AG",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ringier-data/snowplow-reactjs-native-tracker/issues"
+  },
+  "dependencies": {
+    "snowplow-tracker-core": "^0.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.3.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard-react": "^6.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-react": "^7.11.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "rollup": "^0.64.1",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-commonjs": "^9.1.5",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
