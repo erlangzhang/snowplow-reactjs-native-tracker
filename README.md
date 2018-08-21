@@ -11,7 +11,7 @@ npm install @ringierag/snowplow-reactjs-native-tracker --save
 
 ## Usage
 
-The tracker provides the same tracking methods like the Snowplow Node.js tracker ([documentaion](https://github.com/snowplow/snowplow/wiki/node.js-tracker))
+The tracker provides the same tracking methods like the Snowplow Node.js tracker ([documentation](https://github.com/snowplow/snowplow/wiki/node.js-tracker))
 plus the additional methods mentioned below in this README.
 
 Example how to use the tracker:
@@ -19,7 +19,7 @@ Example how to use the tracker:
 ```js
 import React from 'react';
 import { StyleSheet, Text, Button, View } from 'react-native';
-import { Tracker, Emitter } from 'snowplow-reactjs-native-tracker';
+import { Tracker, Emitter } from '@ringierag/snowplow-reactjs-native-tracker';
 
 export default class App extends React.Component {
   
