@@ -54,10 +54,15 @@ class Tracker {
   setColorDepth(val) { this.core.setColorDepth(val) }
   setTimezone(val) { this.core.setTimezone(val) }
   setLang(val) { this.core.setLang(val) }
+
   trackScreenView(name, id, context, tstamp) { this.core.trackScreenView(name, id, context, tstamp) }
   trackPageView(pageUrl, pageTitle, referrer, context, tstamp) { this.core.trackPageView(pageUrl, pageTitle, referrer, context, tstamp) }
+  trackPagePing(pageUrl, pageTitle, referrer, minXOffset, maxXOffset, minYOffset, maxYOffset, context, tstamp) {
+    this.core.trackPagePing(pageUrl, pageTitle, referrer, minXOffset, maxXOffset, minYOffset, maxYOffset, context, tstamp)
+  }
+
   trackStructEvent(category, action, label, property, value, context, tstamp) { this.core.trackStructEvent(category, action, label, property, value, context, tstamp) }
-  trackUnstructEvent(category, action, label, property, value, context, tstamp) { this.core.trackUnstructEvent(properties, context, tstamp) }
+  trackUnstructEvent(properties, context, tstamp) { this.core.trackUnstructEvent(properties, context, tstamp) }
   /* eslint-enable */
 }
 
